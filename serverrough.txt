@@ -1,0 +1,45 @@
+
+
+ServerSocket server;
+		DataInputStream in = new DataInputStream(System.in);
+		PrintStream w;
+		DataInputStream r;
+
+/*
+initialize answer key(2D string array), amount of users, time limit
+*/
+int clientNo;
+int ansamt;
+
+int minutes;
+
+System.out.println("Welcome, please enter the amount of players playing today?");
+clientNo = in.readLine();
+
+System.out.println("How many answers will your players guess?"
+ansamt = in.readLine();
+
+String[ansamt][clientNo] anskey = new String[ansamt][clientNo];
+
+System.out.println("Enter your first answer");
+
+
+
+/*
+open ports for users to connect
+*/
+
+/*
+accept user initializations (user id, empty array)
+*/
+
+/*
+signal from server or when user limit is hit
+	close ports for users to connect
+*/
+
+/*
+accept user input for answers
+end when time is up or a user finishes hunt
+*/
+
